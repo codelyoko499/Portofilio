@@ -1,0 +1,39 @@
+@font-face{
+
+font-family: Heebo;
+src: url(Heebo-VariableFont_wght.ttf);}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Heebo;
+}
+
+body {
+    width: 100vw;
+}
+
+//left container parameters
+$headSize: 4.125rem;
+$textSize: 1.25rem;
+$labelSize: 1rem;
+$labelColor: #2C2C2C;
+$inputColor: #E5EEFF;
+$SiteFont: Heebo;
+
+
+// Social icons
+$IconWidth: 5.938rem;
+$IconHeight: 5.938rem;
+$BackgroundColor: #FDBD03;
+$IconColor: #000000;
+
+
+@mixin mobile {
+    @media (max-width: 1918px) {
+        @content;
+    }
+
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("../images/BackGround.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.container {
+  position: relative;
+  width: 80vw;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 75px;
+  font-family: "Times New Roman", serif;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.enterContainer {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.enterContainer input {
+  font-size: 1.5rem;
+}
+
+label {
+  color: white;
+}
+
+.enterContainer input[type="button"] {
+  cursor: pointer;
+  background-color: gray; /* Green button color */
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1.5rem; /* Adjusted font size */
+}
+
+.enterContainer input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+#output {
+  display: none;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 70%;
+  border: 5px solid white;
+
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+  margin-bottom: 10px;
+
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.imgDiv {
+  background-image: url("https://flagcdn.com/w320/il.png");
+}
+
+#reload {
+  display: none;
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+#reload:hover {
+  box-shadow: #000 3px 3px;
+}
+
+.boxesContainer {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.boxesContainer .box {
+  margin: auto;
+  padding: 25px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #333;
+  border: #fff solid 5px;
+  border-radius: 70%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.boxesContainer .box h2 {
+  color: #3498db;
+  font-size: 2.5rem;
+}
+
+.box:hover {
+  background-color: #45a049;
+}
+
+#flagsDiv {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .bgImg {
+    width: 90vw;
+    left: 5%;
+  }
+
+  #output {
+    width: 300px;
+  }
+
+  .boxesContainer {
+    flex-direction: column;
+  }
+}

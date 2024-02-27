@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Assistant;
+    src: url(Assistant-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url(Heebo-VariableFont_wght.ttf)
+}
+
+
+body {
+    background-color: #E5EEFF
+}
+
+.container {
+    margin-top: 18.625rem;
+
+}
+
+.row .col-md1 img {
+    width: 18.5rem;
+    height: 16.938rem;
+
+}
+
+.col-md1 {
+    width: 18.5rem;
+    height: 16.938rem;
+
+}
+
+.col-md3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 38.25rem;
+    height: 35.125rem;
+    gap: 1.25rem;
+}
+
+.gap-1 {
+    gap: 1.938rem !important;
+}
+
+
+.col-subtext {
+    width: 38.313rem;
+    height: 35.125rem;
+    background-color: #020253;
+
+}
+
+.col-subtext h1 {
+    width: 25rem;
+    height: 5rem;
+    margin-top: 12.188rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0EE1DA;
+    font: normal normal bold 3.813rem/5rem Assistant;
+
+}
+
+.col-subtext p {
+    width: 29.688rem;
+    height: 3.25rem;
+    font: normal normal normal 1.25rem/1.625rem Assistant;
+    color: #F9F9F9;
+    margin-top: 1.188rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.gap-2 {
+    margin-top: 1.25rem;
+    gap: 1.25rem !important;
+}
+
+.col-form {
+    width: 38.313rem;
+    height: 53.25rem;
+    background-color: #8E097C;
+
+}
+
+
+
+.col-form h1 {
+    margin-top: 3.938rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21.25rem;
+    height: 2.875rem;
+    color: #FFFFFF;
+    font: normal normal bold 2.188rem/2.875rem Assistant;
+
+
+}
+
+.col-form p {
+    margin-top: 1.438rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29.688rem;
+    height: 3.25rem;
+
+    text-align: center;
+    font: normal normal normal 1.25rem/1.625rem Assistant;
+    color: #F9F9F9;
+
+}
+
+.col-form form {
+    width: 31.25rem;
+    height: 26.813rem;
+    margin: 4.391rem auto;
+    text-align: right;
+
+}
+
+.col-form form label {
+    width: 5.75rem;
+    height: 1.5rem;
+    font: normal normal bold 1rem/1.5rem Heebo;
+    color: #0EE1DA;
+}
+
+.email {
+    margin-top: 1.875rem;
+}
+
+.context {
+    margin-top: 4.625rem;
+
+}
+
+
+
+.col-form form input {
+    width: 31.25rem;
+    height: 3.75rem;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border-bottom: 5px solid #0EE1DA;
+
+
+}
+
+#exampleFormControlTextarea1 {
+    width: 31.25rem;
+    height: 10.75rem;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border-bottom: 5px solid #0EE1DA;
+    resize: none;
+
+}
+
+.btn-primary {
+    margin-top: 1.25rem;
+    width: 31.313rem;
+    height: 3.75rem;
+
+    background: #0EE1DA 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 1.5rem/2.063rem Heebo;
+    letter-spacing: 0.36px;
+    color: #011560;
+
+}
+
+.col-md4 {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 1.25rem;
+}
+
+.col-md5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.25rem;
+    height: 54.563rem;
+}
+
+@media (max-width:1400px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 23.125rem;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    .row .col-md1 img {
+        width: 9.938rem;
+        height: 9.125rem;
+
+    }
+
+    .col-md1 {
+        width: 9.938rem;
+        height: 9.125rem;
+
+    }
+
+    .col-md3 {
+        margin-top: 0.125rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 23.125rem;
+        height: 19rem;
+        gap: 0.75rem;
+        order: 2;
+    }
+
+    .gap-1 {
+        margin: 0 auto;
+        gap: 0.75rem !important;
+    }
+
+
+    .col-subtext {
+        width: 23.125rem;
+        height: 21.25rem;
+
+
+    }
+
+    .col-subtext h1 {
+        width: 14.625rem;
+        height: 2.938rem;
+        margin-top: 7.313rem;
+        margin-left: auto;
+        margin-right: auto;
+        color: #0EE1DA;
+        font: normal normal bold 2.25rem/2.938rem Assistant;
+
+    }
+
+    .col-subtext p {
+        width: 17.938rem;
+        height: 4.875rem;
+        font: normal normal normal 1.25rem/1.625rem Assistant;
+        color: #F9F9F9;
+        margin-top: 0.875rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+
+    .row {
+        margin: auto;
+    }
+
+    .gap-2 {
+        width: 23.125rem;
+        height: 19rem;
+        margin-top: 0.75rem;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 1.25rem !important;
+    }
+
+    .col-form {
+        margin-top: 1.25rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 23.125rem;
+        height: 32.375rem;
+
+    }
+
+
+
+    .col-form h1 {
+        margin-top: 3.625rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15.25rem;
+        height: 2.063rem;
+        ;
+        color: #FFFFFF;
+        font: normal normal bold 1.563rem/2.063rem Assistant;
+
+
+    }
+
+    .col-form p {
+        margin-top: 0.875rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 17.375rem;
+        height: 2.375rem;
+
+        text-align: center;
+        font: normal normal normal 0.938rem/1.188rem Assistant;
+        color: #F9F9F9;
+
+    }
+
+    .col-form form {
+        width: 17.375rem;
+        height: 14.875rem;
+        margin: 1.868rem auto;
+        text-align: right;
+
+    }
+
+    .col-form form label {
+        width: 2.5rem;
+        height: 0.625rem;
+        font: normal normal bold 0.438rem/0.625rem Heebo;
+        color: #0EE1DA;
+    }
+
+    .email {
+        margin-top: 1.063rem;
+    }
+
+    .context {
+        width: 2.625rem !important;
+        height: 0.625rem;
+        margin-top: 0.719rem;
+
+    }
+
+
+
+    .col-form form input {
+        width: 17.375rem;
+        height: 2.063rem;
+        background: #E5EEFF 0% 0% no-repeat padding-box;
+        border-bottom: 3px solid #0EE1DA;
+
+    }
+
+    #exampleFormControlTextarea1 {
+        width: 17.375rem;
+        height: 6rem;
+        background: #E5EEFF 0% 0% no-repeat padding-box;
+        border-bottom: 3px solid #0EE1DA;
+        resize: none;
+
+
+
+    }
+
+    .btn-primary {
+        margin-top: 0.688rem;
+        width: 17.375rem;
+        height: 2.063rem;
+
+        background: #0EE1DA 0% 0% no-repeat padding-box;
+        text-align: center;
+        font: normal normal bold 0.75rem/1rem Heebo;
+        letter-spacing: 0.36px;
+        color: #011560;
+
+    }
+
+    .col-md4 {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        gap: 0.75rem;
+    }
+
+    .col-md5 {
+        width: 23.125rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-left: auto;
+        margin-right: auto;
+        height: 31.25rem;
+    }
+
+}

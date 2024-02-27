@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World clock</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script defer src="./script/main.js"></script>
+  </head>
+
+  <body>
+    <div class="bgImg"></div>
+    <div class="container">
+      <h1>World clock</h1>
+
+      <div class="enterContainer" id="enterContainer">
+        <label for="">Enter the name of the country:</label>
+        <input type="text" value="" id="countryInput" />
+        <input type="button" value="Send" id="send" /><br /><br />
+      </div>
+
+      <div id="output"></div>
+      <button id="reload" onclick="location.reload()">Change country</button>
+
+      <div id="flagsDiv"></div>
+
+      <div class="boxesContainer">
+        <div class="box" id="Israel"></div>
+
+        <div class="box" id="China"></div>
+        <div class="box" id="USA"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,403 @@
+@font-face {
+  font-family: Heebo;
+  src: url(Heebo-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Heebo;
+}
+
+body {
+  width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.right_container {
+  position: relative;
+  width: 43.813rem;
+  height: 79.063rem;
+  float: right;
+  margin-left: 11.313rem;
+}
+@media (max-width: 1918px) {
+  .right_container {
+    width: 100vw;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+    position: static;
+  }
+}
+.right_container .upperyellowstyle {
+  width: 27.125rem;
+  height: 1.125rem;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: #FDBD03;
+}
+@media (max-width: 1918px) {
+  .right_container .upperyellowstyle {
+    width: 20rem;
+    height: 0.625rem;
+    top: 0px;
+    left: 3.125rem;
+  }
+}
+.right_container .phone {
+  width: 33.438rem;
+  height: 50.25rem;
+  margin-top: 8.625rem;
+}
+@media (max-width: 1918px) {
+  .right_container .phone {
+    display: block;
+    width: 4.938rem;
+    height: 7.438rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.left_container {
+  position: relative;
+  width: 64.875rem;
+  height: 79.063rem;
+  float: left;
+  border-bottom: 1.125rem solid #FDBD03;
+}
+@media (max-width: 1918px) {
+  .left_container {
+    position: static;
+    float: none;
+    width: 100vw;
+    height: auto;
+    border-bottom: 0.625rem solid #FDBD03;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.left_container img {
+  width: 5.938rem;
+  height: 5.938rem;
+}
+.left_container .whatsappcontainer {
+  background-color: #FDBD03;
+  border-radius: 50%;
+  width: 5.938rem;
+  height: 5.938rem;
+  margin-top: 3.938rem;
+  margin-left: 3.938rem;
+}
+@media (max-width: 1918px) {
+  .left_container .whatsappcontainer {
+    display: none;
+  }
+}
+.left_container .whatsappcontainer .whatsapp {
+  color: #000000;
+  padding-top: 1.172rem;
+  padding-bottom: 1.392rem;
+  padding-left: 0.282rem;
+  padding-right: 0.282rem;
+}
+.left_container .box {
+  width: 52.813rem;
+  height: 37.5rem;
+  margin-top: 4.25rem;
+  margin-left: 11.438rem;
+}
+@media (max-width: 1918px) {
+  .left_container .box {
+    width: 100vw;
+    height: 30rem;
+    margin-top: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.left_container .box h1 {
+  width: 19.25rem;
+  height: 6.063rem;
+  font-size: 4.125rem;
+  color: #FDBD03;
+  margin-left: 34.375rem;
+  font-weight: bold;
+  text-align: right;
+}
+@media (max-width: 1918px) {
+  .left_container .box h1 {
+    width: 100vw;
+    height: 3.688rem;
+    font: normal normal 900 2.5rem/3.688rem Heebo;
+    margin-top: 3rem;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.left_container .box h2 {
+  width: 24.063rem;
+  height: 3.625rem;
+  font-size: 1.25rem;
+  margin-top: 0.938rem;
+  margin-left: 29.375rem;
+  text-align: right;
+  color: #020253;
+  font-weight: normal;
+  letter-spacing: 0px;
+  text-align: right;
+}
+@media (max-width: 1918px) {
+  .left_container .box h2 {
+    width: 18.313rem;
+    height: 3.5rem;
+    text-align: center;
+    font: normal normal normal 0.938rem/1.375rem Heebo;
+    margin-top: 0.563rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.left_container .box form {
+  width: 53.438rem;
+  height: auto;
+  margin-top: 2.375rem;
+}
+@media (max-width: 1918px) {
+  .left_container .box form {
+    width: 100vw;
+    margin-top: 2.143rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.left_container .box .horizontal {
+  width: 52.813rem;
+  height: 4.688rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+  justify-content: start;
+  gap: 1.219rem;
+}
+@media (max-width: 1918px) {
+  .left_container .box .horizontal {
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.left_container .box .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+@media (max-width: 1918px) {
+  .left_container .box .form-group {
+    width: 19.313rem;
+  }
+}
+@media (max-width: 1918px) {
+  .left_container .box .cnt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: 0.938rem;
+  }
+}
+.left_container .box label {
+  width: 3.625rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  color: #2C2C2C;
+}
+@media (max-width: 1918px) {
+  .left_container .box label {
+    width: 2.313rem;
+    height: 0.875rem;
+    font: normal normal bold 0.625rem/0.875rem Heebo;
+  }
+}
+.left_container .box .name {
+  text-align: right;
+  margin-top: 2.125rem;
+}
+.left_container .box .email {
+  width: 2.563rem;
+  height: 1.5rem;
+  text-align: right;
+  margin-top: 0.938rem;
+}
+@media (max-width: 1918px) {
+  .left_container .box .email {
+    width: 1.625rem;
+    height: 0.875rem;
+    margin-top: 0.938rem;
+  }
+}
+.left_container .box .content {
+  width: 2.563rem;
+  height: 1.5rem;
+  text-align: right;
+  margin-top: 0.938rem;
+}
+@media (max-width: 1918px) {
+  .left_container .box .content {
+    width: 2.313rem;
+    height: 0.875rem;
+    margin-top: 0.938rem;
+    text-align: right;
+  }
+}
+.left_container .box input {
+  width: 26.125rem;
+  height: 3.125rem;
+  background-color: #E5EEFF;
+  border: none;
+  border-bottom: 4px solid #FDBD03;
+}
+@media (max-width: 1918px) {
+  .left_container .box input {
+    width: 19.313rem;
+    height: 2.313rem;
+    border-bottom: 3px solid #FDBD03;
+  }
+}
+.left_container .box #content {
+  width: 53.375rem;
+  height: 8.938rem;
+  border: none;
+  background-color: #E5EEFF;
+  border-bottom: 4px solid #FDBD03;
+  resize: none;
+}
+@media (max-width: 1918px) {
+  .left_container .box #content {
+    width: 19.313rem;
+    height: 6.625rem;
+    border-bottom: 3px solid #FDBD03;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.left_container .box button {
+  width: 10.375rem;
+  height: 3.125rem;
+  background-color: #FDBD03;
+  color: #000000;
+  font-size: 1.375rem;
+  font-weight: bold;
+  border: none;
+  margin-top: 4.625rem;
+  margin-left: 43.063rem;
+}
+@media (max-width: 1918px) {
+  .left_container .box button {
+    width: 19.375rem;
+    height: 2.313rem;
+    font: normal normal bold 0.938rem/1.313rem Heebo;
+    letter-spacing: 0.23px;
+    margin-top: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.left_container .social {
+  width: 30.875rem;
+  height: 5.938rem;
+  margin-left: 3.438rem;
+  display: flex;
+  gap: 2.375rem;
+  margin-top: 18.688rem;
+}
+@media (max-width: 1918px) {
+  .left_container .social {
+    width: 14.75rem;
+    height: auto;
+    margin-top: 9.063rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.25rem;
+    flex-direction: row;
+    gap: 1.125rem;
+  }
+}
+.left_container .social .bgc {
+  border-radius: 50%;
+  width: 5.938rem;
+  height: 5.938rem;
+  padding: 2rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  background-color: #FDBD03;
+}
+@media (max-width: 1918px) {
+  .left_container .social .bgc {
+    width: 2.875rem;
+    height: 2.875rem;
+    padding: 0.438rem;
+    padding-top: 0.875rem;
+  }
+}
+.left_container .social .facebook {
+  width: 2rem;
+  height: 2.25rem;
+  color: #000000;
+}
+@media (max-width: 1918px) {
+  .left_container .social .facebook {
+    height: 1.063rem;
+  }
+}
+.left_container .social .instagram {
+  width: 2rem;
+  height: 2rem;
+  color: #000000;
+}
+@media (max-width: 1918px) {
+  .left_container .social .instagram {
+    height: 0.938rem;
+  }
+}
+.left_container .social .linkedin {
+  width: 2rem;
+  height: 1.938rem;
+  color: #000000;
+}
+@media (max-width: 1918px) {
+  .left_container .social .linkedin {
+    height: 0.938rem;
+  }
+}
+.left_container .social .telephone {
+  width: 2rem;
+  height: 1.688rem;
+  color: #000000;
+}
+@media (max-width: 1918px) {
+  .left_container .social .telephone {
+    height: 0.813rem;
+  }
+}/*# sourceMappingURL=main.css.map */
