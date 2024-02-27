@@ -31,62 +31,62 @@ Below are the projects featured in this portfolio:
 1. תן לנו להוביל אותך קדימה
 
    - Description: In this Project I have used HTML & CSS.
-   - Repository: [Project1](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project1)
+ 
 
 2. Here & Now
 
    - Description: In this Project I have used HTML & CSS.
-   - Repository: [Project2](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project2)
+
 
 3. קפה טוב לבוקר טוב
 
    - Description: In this Project I have used HTML & CSS.
-   - Repository: [Project3](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project3)
+
 
 4. תן לנו להוביל אותך קדימה
 
    - Description: In this Project I have used HTML & CSS.
-   - Repository: [Project4](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project4)
+
 
 5. לגלות את העולם
 
    - Description: In this Project I have used HTML,CSS & Bootstrap.
-   - Repository: [Project5](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project5)
+   
 
 6. ייעוץ חינם
 
    - Description: In this Project I have used HTML,CSS & SASS.
-   - Repository: [Project6](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project6)
+ 
 
 7. Simon Game
 
    - Description: In this Project I have used HTML & CSS & JS
-   - Repository: [Project7](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project7)
+
 
 8. User Management
 
    - Description: In this Project I have used HTML & CSS & JS
-   - Repository: [Project8](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project8)
+
 
 9. Screen Builder
 
    - Description: In this Project I have used HTML & CSS & JS
-   - Repository: [Project9](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project9)
+
 
 10. World Clock
 
 - Description: In this Project I have used HTML & CSS & JS
-- Repository: [Project10](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project10)
+
 
 11. X & O game
 
 - Description: In this Project I have used HTML & CSS & JS
-  - Repository: [Project11](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project11)
+
 
 12. Calculator
 
 - Description: In this Project I have used HTML & CSS & JS
-- Repository: [Project12](https://github.com/codelyoko499/Portofolio/tree/main/projects/Project12)
+
 
 ## Usage
 
