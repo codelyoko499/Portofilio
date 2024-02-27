@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script defer type="module" src="./script/main.js"></script>
+  </head>
+  <body>
+    <audio id="green-sound" src="./sound/DO.wav"></audio>
+    <audio id="red-sound" src="./sound/FA.wav"></audio>
+    <audio id="yellow-sound" src="./sound/LA.wav"></audio>
+    <audio id="blue-sound" src="./sound/RE.wav"></audio>
+    <!-- <button id="btnStart">Start Game</button> -->
+    <!-- <div id="output"></div> -->
+    <div id="game-board">
+      <button id="green" class="btn first color" data-value="green"></button>
+      <button id="red" class="btn second color" data-value="red"></button>
+      <div class="counterBox"><span id="round-number">0</span></div>
+      <button id="yellow" class="btn third color" data-value="yellow"></button>
+      <button id="blue" class="btn forth color" data-value="blue"></button>
+    </div>
+    <button id="start">Start Game</button>
+  </body>
+</html>

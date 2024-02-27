@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users Managment</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script defer src="./script/main.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Users Managment</h1>
+      </div>
+      <div class="SUandSIcontainer">
+        <div class="SUContainer">
+          <div class="SUContent">
+            <h2>Sign up</h2>
+            <p>Please fill the details to sign up</p>
+          </div>
+
+          <form class="signUp">
+            <div class="formBox">
+              <label for="first name">First name</label><br />
+              <input type="text" id="fName" />
+            </div>
+
+            <div class="formBox">
+              <label for="last name">Last name</label><br />
+              <input type="text" id="lName" />
+            </div>
+
+            <div class="formBox">
+              <label for="email">Email</label><br />
+              <input type="email" id="email" />
+            </div>
+
+            <div class="formBox">
+              <label for="password">password</label><br />
+              <input type="password" id="password" />
+            </div>
+
+            <input type="button" value="Sign up" id="signUpBtn" />
+          </form>
+        </div>
+
+        <div class="SiContainer">
+          <div class="SIContent">
+            <h2>Sign in</h2>
+            <p>Please fill the details to sign in</p>
+          </div>
+
+          <form class="signIn">
+            <div class="formBox">
+              <label for="email">Email</label><br />
+              <input type="email" id="emailSI" />
+            </div>
+
+            <div class="formBox">
+              <label for="password">password</label><br />
+              <input type="password" id="passwordSI" />
+            </div>
+
+            <input type="button" value="Sign in" id="signInBtn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="tableContainer">
+        <table id="table">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+              <th>Password</th>
+              <th>Status</th>
+              <th>Disconnect</th>
+              <th>Delete</th>
+              <th>Edit</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

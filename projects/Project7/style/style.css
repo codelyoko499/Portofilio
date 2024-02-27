@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+#game-board {
+  display: grid;
+  padding: 150px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(90, 180, 207, 0.281);
+  border-radius: 600px;
+  position: relative;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.counterBox {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  border-radius: 150px;
+  background-color: white;
+  border: solid 5px black;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  width: 50px;
+}
+
+.btn {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover,
+.play-sequence .btn {
+  margin: auto;
+  transition: 0.5s;
+}
+
+.first {
+  background-color: #ff3333;
+  border-radius: 300px 0 0 0;
+}
+.first:hover {
+  background-color: #ff333377;
+  width: 170px;
+  height: 170px;
+}
+
+.second {
+  background-color: #33cc33;
+  border-radius: 0 300px 0 0;
+}
+.second:hover {
+  background-color: #33cc337a;
+  width: 170px;
+  height: 170px;
+}
+
+.third {
+  background-color: #3333ff;
+  border-radius: 0 0 0 300px;
+}
+.third:hover {
+  background-color: #3333ff6b;
+  width: 170px;
+  height: 170px;
+}
+
+.forth {
+  background-color: #ffff33;
+  border-radius: 0 0 300px 0;
+}
+.forth:hover {
+  background-color: #ffff336e;
+  width: 170px;
+  height: 170px;
+}
+#start {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+#start:hover {
+  background-color: #45a049;
+}
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+  button,
+  .btn,
+  #start {
+    width: 100px;
+    height: 100px;
+  }
+
+  .counterBox {
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+  }
+}

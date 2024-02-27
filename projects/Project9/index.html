@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script defer src="./script/main.js"></script>
+
+    <title>Page Builder</title>
+  </head>
+  <body>
+    <div class="page_container gap">
+      <div class="form-section">
+        <label for="elementType">ElementType:</label>
+        <select id="element-type-select">
+          <option value="span">Span</option>
+          <option value="div">Div</option>
+          <option value="h1">H1</option>
+          <option value="h2">H2</option>
+          <option value="h3">H3</option>
+          <option value="p">P</option>
+        </select>
+        <br />
+        <label for="backgroundColor">BackgroundColor:</label>
+        <input type="color" id="element-background-color" />
+        <label for="width">Width:</label>
+        <input type="number" id="element-width" placeholder="Width" />
+        <select id="element-width-unit">
+          <option value="px">px</option>
+          <option value="%">%</option>
+          <option value="rem">rem</option>
+        </select>
+        <label for="height">Height:</label>
+        <input type="number" id="element-height" placeholder="Height" />
+        <select id="element-height-unit">
+          <option value="px">px</option>
+          <option value="%">%</option>
+          <option value="rem">rem</option>
+        </select>
+        <label for="content">Content:</label>
+        <input type="text" placeholder="type text" id="content" />
+        <label for="textColor">TextColor</label>
+        <input type="color" id="textColor" />
+        <label for="borderWidth">BorderWidth:</label>
+        <input type="number" id="borderWidth" placeholder="Border Width" />
+        <label for="borderStyle">Border Style:</label>
+        <select id="element-border-style">
+          <option value="solid">Solid</option>
+          <option value="dotted">Dotted</option>
+          <option value="dashed">Dashed</option>
+        </select>
+        <label for="borderColor">BorderColor:</label>
+        <input type="color" id="borderColor" />
+        <label for="padding">Padding:</label>
+        <input type="number" id="padding" placeholder="Padding" />
+        <label for="margin">Margin:</label>
+        <input type="number" id="margin" placeholder="Margin" />
+        <label for="borderRadius">BorderRadius:</label>
+        <input type="number" id="borderRadius" placeholder="Border Radius" />
+
+        <label for="shadowX">ShadowX:</label>
+        <input type="number" id="shadowX" placeholder="Shadow X" />
+        <label for="shadowY">ShadowY:</label>
+        <input type="number" id="shadowY" placeholder="Shadow Y" />
+        <label for="shadowColor">ShadowColor:</label>
+        <input type="color" id="shadowColor" />
+        <br />
+        <button onclick="addElement()">AddElement</button>
+        <button onclick="clearBoard()">ClearBoard</button>
+        <button onclick="saveToLocalStorage()">Save</button>
+      </div>
+      <div class="content-section" id="content-container"></div>
+    </div>
+  </body>
+</html>
